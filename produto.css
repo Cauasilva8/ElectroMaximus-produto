@@ -1,0 +1,108 @@
+.sumario{
+    position: relative;
+    left: 35%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: cadetblue;
+    border-radius: 20px;
+    text-align: center;
+    width: 30%;
+    margin-bottom: 100px;
+}
+
+.itens{
+    justify-content: center;
+    list-style-type: none;
+}
+
+.sum{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.sum:hover{
+    text-decoration: underline;
+}
+
+footer{
+    bottom: 0;
+    position: relative;
+    background-image: url(wepik-export-20240403174137mw5r.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 10px 0px;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bold;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div{
+    display: flex;
+    padding: 10px;
+}
+
+main{
+    text-align: center;
+    margin: 100px 50px;
+}
+
+main p{
+    text-align: justify;
+    font-size: 30px;
+}
+
+.sumario{
+padding: 100px 0px;
+}
+
+.lingua{
+    width: 19px;
+    padding: 0px 5px;
+}
+
+.titulo{
+    font-size: 100px;
+    padding: 10px 0px;
+}
+
+.secao{
+    text-align: center;
+    margin: 400px 0px;
+    padding: 0px 287px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto{
+    width: 50%;
+}
+
+.texto p{
+    text-align: justify;
+}
+
+#compra{
+    justify-content: center;
+}
+
+#compra button{
+    width: 250px;
+    height: 40px;
+    border-radius: 40px;
+    background: #929cdd;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 10px;
+}
+
+button a{
+    color: aliceblue;
+    text-decoration: none;
+}

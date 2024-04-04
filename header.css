@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+header{
+    background-image: url(wepik-export-20240403174137mw5r.jpeg);
+    background-size: cover;
+    background-position: top;
+    padding: 288px 200px;
+
+}
+
+#header_tittle{
+    color: aliceblue;
+    font-size: 140px;
+    position: relative;
+}
+
+nav{
+top: 0;
+position: absolute;
+left: 35%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: start;
+}
+
+li{
+    padding: 10px;
+    
+}
+
+.nave{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.nave:hover{
+    text-decoration: underline;
+}
